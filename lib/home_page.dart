@@ -1,4 +1,4 @@
-//
+
 // import 'dart:convert';
 //
 // import 'package:flutter/cupertino.dart';
@@ -20,7 +20,7 @@
 //     final response =await http.get(Uri.parse("https://jsonplaceholder.typicode.com/posts"));
 //     var data = jsonDecode(response.body.toString());
 //     if(response.statusCode ==200){
-//       for(Map i in data){
+//       for(Map <String, dynamic>i in data){
 //         postlist.add(Postmodel.fromJson(i));
 //       }
 //       return postlist;
@@ -57,6 +57,9 @@
 //     );
 //   }
 // }
+
+
+
 import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
